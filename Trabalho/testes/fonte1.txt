@@ -1,0 +1,8 @@
+int func1(int x){
+    for(int i = 3; i <= 2; i++){
+      if(i && x){
+         x = 60/10;
+      };
+    };
+    return x;
+};

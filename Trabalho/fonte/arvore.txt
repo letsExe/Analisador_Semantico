@@ -1,0 +1,21 @@
+Nivel 00-> Inicio    	
+Nivel 01-> Definicoes	
+Nivel 02-> Sequencia 	
+Nivel 03-> Declaracao	Pvirg     	
+Nivel 04-> Dec_func  	;         	
+Nivel 05-> Func      	AbreP     	Lista_par 	FechaP    	AbreC     	Sequencia 	FechaC    	
+Nivel 06-> Tipo      	Id        	(         	Dec_var   	)         	{         	Declaracao	Pvirg     	Sequencia 	}         	
+Nivel 07-> int       	func1     	Tipo      	Id        	Dec_rep   	;         	Declaracao	Pvirg     	
+Nivel 08-> int       	x         	Rep       	AbreP     	Atribuicao	Pvirg     	Exp       	Pvirg     	Atribuicao	FechaP    	AbreC     	Sequencia 	FechaC    	Dec_ret   	;         	
+Nivel 09-> for       	(         	Dec_var   	Sinal     	Exp       	;         	Exp_S     	Comp      	Exp_S     	;         	Id        	Sinal     	)         	{         	Declaracao	Pvirg     	}         	Retorno   	Exp       	
+Nivel 10-> Tipo      	Id        	=         	Exp_S     	Termo     	<=        	Termo     	i         	++        	Dec_cond  	;         	return    	Exp_S     	
+Nivel 11-> int       	i         	Termo     	Fator     	Fator     	If        	AbreP     	Exp       	FechaP    	AbreC     	Sequencia 	FechaC    	Termo     	
+Nivel 12-> Fator     	Id        	Num       	if        	(         	Exp_S     	Logic     	Exp_S     	)         	{         	Declaracao	Pvirg     	}         	Fator     	
+Nivel 13-> Num       	i         	2         	Termo     	&&        	Termo     	Atribuicao	;         	Id        	
+Nivel 14-> 3         	Fator     	Fator     	Id        	Sinal     	Exp       	x         	
+Nivel 15-> Id        	Id        	x         	=         	Exp_S     	
+Nivel 16-> i         	x         	Termo     	
+Nivel 17-> Termo     	Mult      	Termo     	
+Nivel 18-> Fator     	/         	Fator     	
+Nivel 19-> Num       	Num       	
+Nivel 20-> 60        	10        	
